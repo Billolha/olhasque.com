@@ -1,1 +1,73 @@
 theme: jekyll-theme-midnight
+
+# Build settings
+
+highlighter: rouge
+kramdown:
+  input: GFM
+
+plugins:
+  - jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Site settings
+title: "William Olhasque"
+
+email: william@olhasque.com
+
+lang: "fr"
+#blog logo
+
+
+
+timezone: UTC
+
+
+
+name: 'William Olhasque'
+author: 'William Olhasque'
+
+
+paginate:	5
+
+url: "https://olhasque.com" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+#twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/billolha
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: "?text="
+    share_link: "&amp;url="
+
+
+  - icon:	github
+    url:	https://github.com/billolha
+    desc:	Fork me on Github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/olhasquewilliam
+    desc:	Restons en contact sur Linkedin
+    share_url: http://www.linkedin.com/shareArticle?mini=true
+    share_title: "&amp;title="
+    share_link: "&amp;url="
+
+  - icon:	google-plus
+    url:	#https://google.com/???
+    desc:	Add me on google+
+    share_url: https://plus.google.com/share
+    share_title:
+    share_link: "?url="
